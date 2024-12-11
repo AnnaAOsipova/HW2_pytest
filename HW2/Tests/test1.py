@@ -30,7 +30,7 @@ def test_step1():
 
 def test_step2():
     # test2
-    assert checkout("cd /home/parallels/out; 7z e arx2.7z -o/home/parallels/folder1 -y",
+    assert checkout("cd /home/parallels/test; 7z e arx2.7z -o/home/parallels/folder1 -y",
                     "Everything is Ok"), "test2 FAIL"
 
 
